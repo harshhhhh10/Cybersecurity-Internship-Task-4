@@ -15,7 +15,7 @@ Configuration:
 - Port: 23
 - Action: Block the connection
 - Profiles: Domain, Private, Public
-- Status: Enabled ✅
+- Status: Enabled 
 
 Description: Blocks inbound connections on port 23 (Telnet protocol)
 
@@ -33,7 +33,7 @@ Connecting to localhost...Could not open connection to the host, on port 23: Con
 
 
 # Conclusion
-✅ SUCCESSFUL - The firewall rule is working correctly. Port 23 is blocked and connections are refused.
+ SUCCESSFUL - The firewall rule is working correctly. Port 23 is blocked, and connections are refused.
 
 
 
@@ -102,7 +102,7 @@ Why we block it:
 
 # 6. Common Firewall Mistakes
 
-1. Blocking all traffic (makes system unusable)
+1. Blocking all traffic (makes the system unusable)
 2. Not updating rules (rules become outdated)
 3. Overly permissive rules ("Allow all" defeats purpose)
 4. Misconfiguring port forwarding (exposes services)
@@ -131,7 +131,7 @@ NAT translates private IP addresses to public IP addresses and vice versa.
 
 How it works:
 1. Internal device sends traffic with private IP (e.g., 192.168.1.66)
-2. Firewall intercepts and translates to public IP
+2. Firewall intercepts and translates to a public IP
 3. External server sees public IP, not private IP
 4. Response comes back with public IP
 5. Firewall translates back to private IP
@@ -150,7 +150,7 @@ Benefits:
 Q1: What is a firewall?
 A: A firewall is a network security system that monitors and controls inbound and outbound network traffic based on predetermined security rules.
 
-Q2: Difference between a stateful and a stateless firewall?
+Q2: What is the difference between a stateful and a stateless firewall?
 A: Stateful firewalls maintain connection state and make intelligent decisions; stateless firewalls examine each packet independently without context.
 
 Q3: What are inbound and outbound rules?
@@ -169,7 +169,7 @@ Q7: How does a firewall improve network security?
 A: By filtering unauthorized traffic, blocking attacks, preventing intrusions, hiding network structure, and monitoring activity.
 
 Q8: What is NAT in firewalls?
-A: NAT (Network Address Translation) translates private IPs to public IPs, providing privacy by hiding internal network structure and improving security.
+A: NAT (Network Address Translation) translates private IPs to public IPs, providing privacy by hiding the internal network structure and improving security.
 
 
 
@@ -177,7 +177,7 @@ A: NAT (Network Address Translation) translates private IPs to public IPs, provi
 
 | Rule Name | Type | Protocol | Port | Action | Status |
 |--||-||--|--|
-| Block Telnet Port 23 | Inbound | TCP | 23 | Block | Enabled ✅ |
+| Block Telnet Port 23 | Inbound | TCP | 23 | Block | Enabled  |
 
 
 
@@ -207,14 +207,6 @@ All screenshots are in the `screenshots/` folder showing:
 ✓ Understanding why blocking insecure protocols is important
 
 
-
-Status: ✅ Task 4 Complete
-Date: February 17, 2026
-System: Windows 10/11
-
-
-
-
 WINDOWS FIREWALL RULES CREATED 
 
 ===========================================
@@ -225,7 +217,7 @@ Protocol:     TCP
 Port:         23
 Action:       Block the connection
 Profiles:     Domain, Private, Public
-Status:       Enabled ✅
+Status:       Enabled 
 Description:  Blocks inbound connections on port 23 (Telnet protocol)
 
 Testing:
