@@ -223,7 +223,7 @@ Description:  Blocks inbound connections on port 23 (Telnet protocol)
 Testing:
 - Command: telnet localhost 23
 - Result:  Could not open connection to the host, on port 23: Connect failed
-- Status:  ✅ WORKING - Rule successfully blocks port 23
+- Status:  WORKING - Rule successfully blocks port 23
 
 ===========================================
 SUMMARY
