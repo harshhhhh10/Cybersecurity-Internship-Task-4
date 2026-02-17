@@ -1,0 +1,15 @@
+FIREWALL RULES CREATED:
+
+1. Block Telnet Port 23
+   - Direction: Inbound
+   - Protocol: TCP
+   - Port: 23
+   - Action: Block
+   - Status: Enabled
+
+2. Allow HTTP Port 80
+   - Direction: Inbound
+   - Protocol: TCP
+   - Port: 80
+   - Action: Allow
+   - Status: Enabled
